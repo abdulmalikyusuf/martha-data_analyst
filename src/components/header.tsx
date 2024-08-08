@@ -11,11 +11,9 @@ const Header: React.FC = () => {
     setIsOpen(!isOpen);
   };
 
-  const logoWhite = "/logoWhite.png";
-  const logoBlack = "/logoBlack.png";
   const navLinks = [
-    { label: "Blog", url: "/blogs" },
-    { label: "Pricing", url: "/pricing" },
+    { label: "Article 1", url: "/" },
+    { label: "Article 2", url: "/article-2" },
   ];
   const actionButtons = [
     { label: "Log in", url: "/auth/login" },
